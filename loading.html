@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loading.css">
+
+
+</head>
+
+<body>
+    <div class="button-container">
+        <button class="button" onclick="pauseBackgroundMusic()">Stop sound</button><br>
+        <button class="button" onclick="playBackgroundMusic()">Play Sound</button>
+    </div>
+
+    <div class="heading" style="display: inline;">
+        <h1>Chuck: The featherless Bird</h1>
+        <div class="game-loading">
+            <a href="flappy.html"><img src="assets/enter.png" alt="enter"></a>
+        </div>
+    </div>
+
+
+
+    <audio id="background-music" autoplay loop>
+        <source src="assets/game-music.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="loading.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Flappy Bird Game</title>
+        <link rel="stylesheet" href="flappy.css">
+        <link rel="icon" href="assets/iconflappy.ico"  type="image/x-icon">
+        
+    </head>
+    <body>
+        <audio id="game-background-sound" autoplay loop>
+            <source src="assets/insidegamesound.wav" type="audio/wav">
+        </audio>
+
+        <audio id="game-birdFeather-sound" autoplay>
+            <source src="assets/feathersound.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="game-over-sound">
+            <source src="assets/gameoversound.mp3" type="audio/mp3">
+        </audio>
+
+        <canvas id="board" ></canvas>
+        <script src="flappy.js"></script>
+    </body>
+</html> 
