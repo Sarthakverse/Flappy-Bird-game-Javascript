@@ -16,7 +16,7 @@ body{
     display:flex;
     justify-content: center;
     margin-top:5px;
-    margin-left:78px;
+    margin-left:34px;
     gap:4px;
     text-align: center;
     font-size:30px;
@@ -40,11 +40,11 @@ h1{
 }
 
 .game-loading  {
-    margin: 0px 541px 0px 631px;
+    margin: 0px 632px 1px 629px;
 }
 
 .game-loading a img{
-    margin: -21px 0px;
+    margin: -21px 56px;
 }
 
 
