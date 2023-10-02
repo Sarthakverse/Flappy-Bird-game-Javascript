@@ -6,6 +6,7 @@
         <title>Flappy Bird Game</title>
         <link rel="stylesheet" href="flappy.css">
         <link rel="icon" href="assets/iconflappy.ico"  type="image/x-icon">
+        <link rel="stylesheet" href="https://fontawesome.com/icons/pause?f=classic&s=solid">
         
     </head>
     <body>
@@ -21,7 +22,11 @@
             <source src="assets/gameoversound.mp3" type="audio/mp3">
         </audio>
 
-        <canvas id="board" ></canvas>
+        <div id="game-container">
+            <canvas id="board"></canvas>
+            <button id="pauseButton">||</button>
+        </div>
+        
         <script src="flappy.js"></script>
     </body>
 </html> 

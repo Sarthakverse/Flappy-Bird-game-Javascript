@@ -3,6 +3,25 @@ let gameBackgroundSound = document.getElementById("game-background-sound");
 let gameOverSound = document.getElementById("game-over-sound");
 let gameFeatherSound = document.getElementById("game-birdFeather-sound");
 
+
+// const pauseButton = document.getElementById("pauseButton");
+// let isPaused = false;
+// pauseButton.addEventListener("click", togglePause);
+// pauseButton.addEventListener("click", togglePause);
+function togglePause() {
+    if (isPaused) {
+        // Resume the game
+        isPaused = false;
+        pauseButton.innerText = "Pause Game"; // Update button text
+        requestAnimationFrame(update); // Resume animation loop
+    } else {
+        // Pause the game
+        isPaused = true;
+        pauseButton.innerText = "Resume Game"; // Update button text
+    }
+}
+
+
 //board
 let board;
 let boardWidth = 1500;
@@ -76,6 +95,10 @@ window.onload = function() {
 }
 
 function update() {
+    // if (isPaused) {
+        
+    //     requestAnimationFrame(update); 
+    // }
     requestAnimationFrame(update);
     if (gameOver) {
         gameBackgroundSound.pause();
