@@ -11,3 +11,7 @@
 ### Keep track of your high score for added challenge.
 ## Smooth Animations:
 ### Enjoy a seamless gaming experience with fluid animation
+# ![Uploading image.png…]()
+# ![Uploading image.png…]()
+
+
