@@ -1,5 +1,5 @@
 # Flappy Bird Animation Game Project 🕹️🐦
-#### https://sarthakverse.github.io/TASK_2_ANIMATION/loading.html
+#### https://sarthakverse.github.io/Flappy-Bird-game-Javascript/loading.html
 ## Welcome to the Flappy Bird Animation Game Project! Dive into the world of classic gaming with this simple yet engaging recreation of the iconic Flappy Bird.
 
 # Features 🚀🎮
